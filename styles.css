@@ -250,7 +250,7 @@ header h1 {
 }
 
 footer {
-    background-color: #1a1a1a;
+    background-color: #000000;
     padding: 20px;
     text-align: center;
 }
@@ -444,4 +444,36 @@ a {
         font-size: 1.4rem; /* Reduce tagline font size for mobile */
     }
 }
-
+/* Footer styles */
+footer {
+    background-color: #000000; /* Dark background color */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  footer p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  footer span {
+    font-weight: bold;
+    color: #00d1d1; /* Optional: Make the team name stand out */
+  }
+  
+  /* Responsive styling for mobile view */
+  @media (max-width: 768px) {
+    footer p {
+      font-size: 1rem;
+    }
+  }
+  
